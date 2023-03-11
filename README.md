@@ -15,7 +15,7 @@ Requirements
 ------------
 
 *   Swift 5.6 or later
-*   iOS 11.0 or later
+*   iOS 13.0 or later
 
 
 Usage
