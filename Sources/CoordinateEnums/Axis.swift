@@ -5,21 +5,16 @@
 //  Created by Ilias Nikolaidis Olsson on 2021-06-23.
 //
 
-import UIKit
+import Foundation
 
 public enum Axis: String, Codable {
     case horizontal = "h"
     case vertical = "v"
-    
 }
 
 public extension Axis {
     
     var opposite: Axis {return self == .horizontal ? .vertical : .horizontal}
-    
-    var stackViewAxis: NSLayoutConstraint.Axis {
-        return self == .horizontal ? .horizontal : .vertical
-    }
     
     static var all: [Axis] = [.horizontal, .vertical]
     

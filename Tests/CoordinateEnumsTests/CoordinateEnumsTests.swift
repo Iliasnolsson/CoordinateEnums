@@ -1,4 +1,5 @@
 import XCTest
+@testable import CoordinateEnums
 
 final class CoordinateEnumsTests: XCTestCase {
     func testExample() throws {
